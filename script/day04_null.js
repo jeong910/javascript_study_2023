@@ -1,4 +1,4 @@
-//null, undefined 데이더타입 차이
+//null, undefined 데이터타입 차이
 //null == 변수의 값을 삭제할때 사용
 //''== 빈문자열은 DOM문자데이터를 삭제할때 사용
 let a = 10
@@ -11,7 +11,7 @@ const submit = document.querySelector('#submit') //변경버튼
 const reset = document.querySelector('#reset') //초기화버튼
 console.log(pwd, submit, reset);
 //사용작사 비밀번호 입력칸에 비밀번호 입력 후
-//submit 버튼 클릯시 윈도우팝업창으로 '비밀버호 변경'
+//submit 버튼 클릭시 윈도우팝업창으로 '비밀버호 변경'
 //reset버튼 클릭시 비밀번호 입력칸 값 초기화 (제거)
 submit.addEventListener('click',function(){
     window.alert('비밀번호 변경');
